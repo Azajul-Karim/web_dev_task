@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c9c3c3;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.user {
+  font-size: 20px;
+  color: #2cc6ed;
+  padding: 10px;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 0 10px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #2cc6ed;
+}
+
+input[type="search"] {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #9c9696;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: transparent;
+}
+
+.search__icon {
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+  background-color: #2cc6ed;
+  color: white;
+  border: none;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.search__icon:hover {
+  background-color: rgb(66, 66, 160);
+}
+
+.fa-camera {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #545a5c;
+}
+
+.content {
+  margin-top: 76px;
+  padding: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.content .one h1 {
+  text-align: center;
+  position: sticky;
+  top: 70px;
+}
+
+.first {
+  background-color: rgb(150, 28, 28);
+}
+
+.second {
+  background-color: rgb(28, 150, 28);
+}
+
+.third {
+  background-color: rgb(28, 28, 150);
+}
+
+.fourth {
+  background-color: rgb(150, 150, 28);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ece7e7;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 0 20px;
+}
+
+footer ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #1d1e1f;
+  font-size: 18px;
+  padding: 10px;
+}
+
+footer ul li a i {
+  font-size: 25px;
+  margin-bottom: 5px;
+  transition: transform 0.3s;
+}
+
+.add {
+  font-size: 35px;
+  border-radius: 50%;
+  border: 2px solid #303031;
+}
+
+footer ul li a i:hover {
+  transform: scale(1.2);
+  color: #000;
+}
