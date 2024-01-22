@@ -1,0 +1,141 @@
+* {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.bg-dark {
+  color: #020617 !important;
+}
+
+.bg-dark {
+  background-color: #020617 !important;
+}
+.bg-darklight {
+  background-color: #111827 !important;
+}
+
+.btn-primary {
+  background-color: #eab308 !important;
+}
+.text-primary {
+  color: #eab308 !important;
+}
+
+.hero,
+.service,
+.portfolio {
+  min-height: 90vh;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #d1d5db;
+  font-weight: lighter;
+}
+
+.hero .hero-text,
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 80vh;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-img,
+.about-img {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 20px;
+}
+
+.about-text img {
+  padding-bottom: 20px;
+}
+
+.about-text button {
+  width: 35%;
+  padding: 15px;
+}
+.my-service img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.my-service p {
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.service .service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.portfolio-img,
+.portfolio-text {
+  padding-bottom: 50px;
+}
+
+.experiences .experiences-card h2 {
+  color: #eab308;
+}
+
+.experiences-card {
+  margin-bottom: 50px;
+}
+
+.contact .name,
+.contact .massage {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  gap: 36px;
+}
+.contact .massage {
+  width: 100%;
+  height: 166px;
+  margin-bottom: 20px;
+}
+.contact .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .hero,
+  .about {
+    min-height: 90vh;
+  }
+  .hero .hero-text,
+  .about-text {
+    min-height: 20vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .hero-img,
+  .about-img {
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
