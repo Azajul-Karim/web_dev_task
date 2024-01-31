@@ -12,4 +12,5 @@
 <h3>Part Two</h3>
 <h4><a href="https://azajul-karim.github.io/web_dev_task/HTML_CSS/task_2/part_2" target="_blank">Live Link</a></h4>
 
-![Screenshot 2024-01-31 140640](https://github.com/Azajul-Karim/web_dev_task/assets/86797614/8b8e1ee3-362c-4857-b866-315246cf2222)
+![Screenshot 2024-01-31 141013](https://github.com/Azajul-Karim/web_dev_task/assets/86797614/a8f16add-87f6-46ac-95b4-6c66a5b89d7f)
+
