@@ -361,6 +361,9 @@ header nav .hamburger {
   .card-footer button {
     width: 100%;
   }
+  .card-list {
+    margin-left: 0;
+  }
 }
 
 .global-network {
