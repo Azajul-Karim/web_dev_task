@@ -14,3 +14,7 @@
 
 ![Screenshot 2024-01-31 141013](https://github.com/Azajul-Karim/web_dev_task/assets/86797614/a8f16add-87f6-46ac-95b4-6c66a5b89d7f)
 
+<h3>Project Six</h3>
+<h4><a href="https://azajul-karim.github.io/web_dev_task/HTML_CSS/task_6" target="_blank">Live Link</a></h4>
+
+
