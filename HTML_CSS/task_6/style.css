@@ -399,6 +399,10 @@ header nav .hamburger {
   padding: 50px 20px;
 }
 
+.customer-card:hover {
+  border: 1px solid #f44336;
+}
+
 .customer-card-items {
   display: flex;
   justify-content: space-between;
@@ -407,7 +411,7 @@ header nav .hamburger {
   gap: 20px;
 }
 
-.customer-card-header {
+.customer-card-items .customer-card-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -441,11 +445,42 @@ header nav .hamburger {
   border: 1px solid #f44336;
   transition: all 0.3s ease;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn button:hover {
   background-color: #f44336;
   color: #fff;
+}
+
+.fa-star {
+  color: gold;
+}
+@media screen and (max-width: 768px) {
+  .customer-card-items {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .customer-card-items .customer-card {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .customer-card-items .customer-card-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .customer-card-items .customer-card-header-text {
+    margin-left: 0;
+  }
+  .btn {
+    padding: 0px 20px;
+  }
+  .btn button {
+    width: 100%;
+  }
 }
 .subscribe {
   display: flex;
@@ -557,13 +592,13 @@ footer .footer-social i:hover {
   footer .footer-menu {
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 20px;
   }
 
   footer .footer-menu ul {
-    text-align: center;
+    text-align: start;
   }
   footer .footer-menu ul li {
     margin: 10px 0;
@@ -573,6 +608,6 @@ footer .footer-social i:hover {
   }
   .footer-menu h3 {
     font-size: 20px;
-    text-align: center;
+    text-align: start;
   }
 }
